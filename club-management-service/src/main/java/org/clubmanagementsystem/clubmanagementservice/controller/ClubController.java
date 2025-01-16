@@ -45,6 +45,8 @@ public class ClubController {
         clubService.deleteClub(id);
         return ResponseEntity.noContent().build();
     }
+
+
 }
 
 
